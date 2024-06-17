@@ -1,0 +1,76 @@
+/* @settings
+
+name: Catppuccin Mocha Custom
+id: catppuccin-mocha-custom
+settings:
+  - 
+    id: heading-fonts
+    title: Fonts (Optional)
+    type: heading
+    level: 1
+    collapsed: true
+  - 
+    id: default-font
+    title: Base Font (Optional)
+    type: variable-text
+    default: '"Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei Light", sans-serif'
+  - 
+    id: mermaid-font
+    title: Mermaid Font (Optional)
+    type: variable-text
+    default: '"Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei Light", sans-serif'
+  - 
+    id: reveal-font
+    title: Reveal Font (Optional)
+    type: variable-text
+    default: '"Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei Light", sans-serif'
+  - 
+    id: font-monospace
+    title: Monospace Font
+    description: Used for codeblocks, tables, etc.
+    type: variable-text
+    default: '"Source Code Pro", monospace'
+
+  - 
+    id: heading-colors-background
+    title: Background Colors
+    type: heading
+    level: 1
+    collapsed: true
+  -
+    id: background-primary
+    title: Background Primary
+    type: variable-themed-color
+    opacity: false
+    format: hex
+    default-light: "#f5f4f0"  default-dark: "#191719"  -
+    id: background-primary-alt
+    title: Background Primary (alt)
+    type: variable-themed-color
+    opacity: false
+    format: hex
+    default-light: "#e9e8e7"  default-dark: "#141414"  -
+    id: background-secondary
+    title: Background Secondary
+    type: variable-themed-color
+    opacity: false
+    format: hex
+    default-light: "#d6d5d4"  default-dark: "#101010"  -
+    id: background-secondary-alt
+    title: Background Secondary (alt)
+    type: variable-themed-color
+    opacity: false
+    format: hex
+    default-light: "#c4c3c2"  default-dark: "#000000"  -
+    id: background-modifier-border
+    title: 'Background Modifier: Border'
+    type: variable-themed-color
+    opacity: true
+    format: rgb
+    default-light: "#dddddd"  default-dark: "#333333"  -
+    id: background-modifier-form-field
+    title: 'Background Modifier: Form Field'
+    type: variable-themed-color
+    opacity: true
+    format: rgb
+    default-light: "#ffffffff"  default-dark: "#0000004

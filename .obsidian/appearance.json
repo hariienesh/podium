@@ -1,0 +1,13 @@
+{
+  "accentColor": "",
+  "theme": "obsidian",
+  "cssTheme": "AnuPpuccin",
+  "interfaceFontFamily": "MonoLisa",
+  "textFontFamily": "MonoLisa",
+  "monospaceFontFamily": "MonoLisa",
+  "baseFontSize": 22,
+  "enabledCssSnippets": [
+    "Minimal",
+    "catppuccin-mocha"
+  ]
+}
